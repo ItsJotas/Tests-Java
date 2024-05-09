@@ -1,10 +1,10 @@
-package TestingList;
+package testingList;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class testListToString {
+public class TestListToString {
 
     public static void main(String[] args) {
         List<String> stringList1 = new ArrayList<>();
