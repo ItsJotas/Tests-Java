@@ -6,7 +6,7 @@ import java.math.RoundingMode;
 public class TestBigDecimalTruncate {
     public static void main(String[] args) {
         BigDecimal testValue1 = BigDecimal.valueOf(10.5781653);
-        testValue1 = testValue1.setScale(4, RoundingMode.DOWN);
+        testValue1 = testValue1.setScale(0, RoundingMode.DOWN);
 
         BigDecimal testValue2 = testValue1.setScale(4, RoundingMode.UP);
         BigDecimal testValue3 = testValue1.setScale(4, RoundingMode.CEILING);
